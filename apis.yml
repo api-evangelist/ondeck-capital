@@ -1,8 +1,26 @@
 aid: ondeck-capital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ondeck-capital.png
 name: OnDeck Capital
-description: 'OnDeck Capital is a company surfaced as a portfolio company of ivp and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'OnDeck Capital (ODK Capital, LLC) is one of the largest online small business
+  lenders in the United States, providing term loans and business lines of credit to small
+  and medium-sized businesses. Founded in 2007 and headquartered in New York, OnDeck uses
+  data-driven underwriting and cash-flow analytics to deliver fast funding decisions, and
+  has delivered more than $13 billion in financing to over 100,000 businesses across the
+  U.S. OnDeck operates as a subsidiary of Enova International and also markets under the
+  Headway Capital brand. It surfaced in the API Evangelist network as a portfolio company
+  of IVP; OnDeck publishes a public marketing site and an llms.txt resource index but does
+  not currently expose a public developer or partner API.'
 url: https://raw.githubusercontent.com/api-evangelist/ondeck-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Lending
+- Small Business
+- Business Loans
+- Working Capital
+- Financial Services
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/ondeck-capital-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.ondeck.com/security-policy
+- type: DomainSecurity
+  url: security/ondeck-capital-domain-security.yml
+- type: Website
+  url: https://www.ondeck.com/
+- type: Blog
+  url: https://www.ondeck.com/resources
+- type: Support
+  url: https://www.ondeck.com/contact-us
+- type: TermsOfService
+  url: https://www.ondeck.com/terms
+- type: PrivacyPolicy
+  url: https://www.ondeck.com/privacy
+- type: LLMsTxt
+  url: llms/ondeck-capital-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
