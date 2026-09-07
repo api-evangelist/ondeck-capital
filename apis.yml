@@ -88,3 +88,5 @@ x-enrichment:
   status: enriched
   artifacts_added: 3
   pass: local-v1
+x-parent: ondeck
+x-relationship: product
